@@ -1,0 +1,216 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.axtom-main-title{
+    font-size:60px;
+    color:#112884;
+    font-family:poppins-bold;
+}
+.axtom-main-span{
+    opacity:0.7;
+}
+.axtom-title{
+    font-size:50px;
+    color:#112884;
+    font-family:poppins-semi-bold;
+}
+.axtom-desc{
+    font-size:18px;
+    color:#112884;
+    width:auto;
+    font-family:poppins-regular;
+}
+.axtom-sub-title{
+    color:#112884;
+    font-size:45px;
+    font-family:poppins-semi-bold;
+    width:580px;
+}
+.axtom-sub-2-title{
+    color:#112884;
+    font-size:36px;
+    font-family:poppins-semi-bold;
+}
+.axtom-sub-3-title{
+    color:#112884;
+    font-size:32px;
+    text-align: center;
+    font-family:poppins-semi-bold;
+}
+.axtom-button{
+    background-color:#112884;
+    color:#FFFFFF;
+    height:70px;
+    width:200px;
+    border-radius:40px;
+    opacity:0.9;
+    border:none;
+    outline:none;
+}
+.axtom-button:focus{
+    border:none;
+    outline:none;
+}
+.axtom-main-desc{
+    color:#112884;
+    font-size:20px;
+    font-family:poppins-regular;
+}
+.navbar-light .navbar-brand {
+    color:#112884;
+    font-size:40px;
+    font-family:poppins-bold;
+}
+.navbar-light .navbar-brand:hover {
+    color:#112884;
+}
+.navbar-light .navbar-brand:focus{
+    color:#112884;
+}
+.navbar-nav .nav-link {
+    color:#112884 !important;
+    padding-right: 2rem !important;
+    padding-left: 1rem !important;
+    padding-top: 17px;
+    font-family:poppins-regular;
+}
+.navbar-light .navbar-text {
+    color:#112884;
+    padding-top:17px;
+    font-family:poppins-regular;
+}
+.text-img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+/*.header-sec{
+    background-image: url(../images/jpeg/building-2.jpg);
+    background-size: 42% 105%;
+    background-repeat: no-repeat;
+    background-position: 110% 135%;
+}
+
+.apartment-heading h1{
+    width:670px;
+    margin-left:150px;
+}
+*/
+.apartment-search{
+    background-color: white;
+    box-shadow: 0px 5px 22px #00000033;
+    width:100%;
+    padding:20px;
+    border-left:solid #112884;
+}
+.search-col-2{
+    display: flex;
+    justify-content:space-between;
+}
+.axtom-search-button{
+    background-color:#112884;
+    color:#FFFFFF;
+    height:40px;
+    width:100px;
+    border-radius:40px;
+    opacity:0.8;
+    border:none;
+    outline:none;
+}
+.axtom-search-button:focus{
+    border:none;
+    outline:none;
+}
+.axtom-title-break{
+    width:400px;
+}
+.ml-cf-img{
+    width:90%;
+}
+.market-leader-col-first{
+    width:100%;
+}
+.houses-sell-common{
+    background-color: white;
+    box-shadow: 0px 5px 22px #00000033;
+    width:100%;
+}
+.house-common-img{
+    width:100%;
+}
+.right-arrow{
+    width:20px;
+    margin-left:10px;
+    
+}
+.houses-heading{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+.icon h6{
+    color:#112884;
+    font-size: 25px;
+}
+.bath{
+    height:30px;
+    width:30px;
+}
+.true-dream-col-first{
+    background-color: white;
+    box-shadow: 0px 5px 22px #00000033;
+    width:100%;
+    padding:35px;
+}
+.true-dream-col-second{
+    position:relative;
+}
+.building-bg{
+    position: absolute;
+    z-index: -1;
+    width: 929px;
+    top: 49px;
+    right: -151px;
+}
+.mitchells{
+    margin-top:150px;
+}
+.mitchells-first-img{
+    width:300px;
+    border-radius: 150px 150px 0px 150px;
+}
+.mitchells-col-first{
+    display: flex;
+    justify-content:center;
+    
+}
+.mitchells-col-second h6{
+    color:#112884;
+    font-size:26px;
+}
+.mitchells-col-second p{
+    color:#5555555;
+    font-size:18px;
+}
+.footer{
+    background-color:#282F49;
+    padding:20px;
+}
+.footer-common h6{
+    color:white;
+    font-size:25px;
+}
+.axtom-footer{
+    color: #6B89FF;
+    display:flex;
+    justify-content:center;
+    font-size:45px;
+}
