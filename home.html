@@ -14,9 +14,7 @@
         </head>
    <body>
        <section class="header-sec">
-
            <div class="container">
-
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Axtom</a>
@@ -61,16 +59,32 @@
                     <div class="apartment-search mt-5">
                         <div class="row">
                         <div class="col-sm-6">
-                            <div class="search-col-1">
+                            <div class="search-col-1 search-border">
                                    <p class="axtom-desc">SEARCH</p> 
+                                   <select class="axtom-select">
+                                       <option value="search your categories"> Search your categories</option>
+                                       <option value="1"> 1</option>
+                                      <option value="2"> 2</option>
+                                      <option value="3"> 3</option>
+                                   </select>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="search-col-2">
-                                <p class="axtom-desc"> LOCATION   </p>
-                                <button class="axtom-search-button"> Search</button>
+                                <div class="search-location">
+                                    <p class="axtom-desc"> LOCATION   </p>
+                                    <select class="axtom-select">
+                                        <option value="search Location"> Search Location</option>
+                                        <option value="1">Birmingham</option>
+                                        <option value="2">Bristol</option>
+                                        <option value="3">Leeds</option>
+                                    </select>
+                                </div>
+                                <div class="search-button">
+                                    <button class="axtom-search-button"> Search</button>
+                                </div>
                             </div>
-                        </div>
+                         </div>
                     </div>
                     </div>
               </div>
@@ -87,7 +101,8 @@
             </div>
             <div class="col-sm-6">
                 <div class="market-leader-col-second">
-                    <h2 class="axtom-title mt-5 axtom-title-break">We are market leader in USA</h2>
+                    <h2 class="axtom-title mt-5 ">We are market </h2>
+                     <h2 class="axtom-title"> leader in USA</h2>
                     <p class="axtom-desc mt-5">Mauris faucibus nisl ac leo vehicula pulvinar.In elementum erat ut
                         urna vehicula tincidunt. Nam condimentum ligula eros, eu aliquet arcu finibus a. 
                         Phasellus mollis augue eget sapien fermentum blan mauris millis augue eget fermentum blan 
@@ -99,124 +114,664 @@
             </div>
         </div>
     </section>     
-    <section class="houses-sell mt-5">
+    <section class="houses-sell-sec mt-5">
         <div class="container">
            <div class="houses-heading">
             <h2 class="axtom-title mb-5">Houses for Sell (500+)</h2>
-            <p class="axtom-main-desc">Find More Project <img class="right-arrow"src="images/png/right.png"></p>
+            <p class="axtom-main-desc disc-ml">Find More Project </p>
            </div> 
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="houses-sell-common">
-                        <img class="house-common-img" src="images/png/portfolio-img-6.png">
-                        <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
-                        <div class="icon mt-4">
-                             <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
-                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
-                            <h6> <img class="bath" src="images/png/bath.png"> 10,999 </h6>
-                         </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="houses-sell-common">
-                    <img class="house-common-img" src="images/png/portfolio-img-6.png">
-                    <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
-                    <div class="icon mt-4">
-                        <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
-                       <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
-                       <h6> <img class="bath" src="images/png/bath.png"> 12,325 </h6>
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                                <img class="house-common-img" src="images/jpeg/home-1.jpg">
+                                <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                                <div class="icon mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                                </div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                <div class="bedroo">
+                                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-2.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 12,325 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-3.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 6</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,999 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-             <div class="col-sm-4">
-                <div class="houses-sell-common">
-                    <img class="house-common-img" src="images/png/portfolio-img-6.png">
-                    <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
-                    <div class="icon mt-4">
-                        <h6 class=""> <img class="bath"src="images/png/bed.png"> 6 </h6>
-                       <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
-                       <h6> <img class="bath" src="images/png/bath.png"> 15,999 </h6>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                                <img class="house-common-img" src="images/jpeg/home-1.jpg">
+                                <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                                <div class="icon mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                                </div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                <div class="bedroo">
+                                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-2.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 12,325 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-3.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 6</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,999 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                                <img class="house-common-img" src="images/jpeg/home-1.jpg">
+                                <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                                <div class="icon mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                                </div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                <div class="bedroo">
+                                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-2.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 12,325 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-3.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 6</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,999 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
         </div>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <img class="right-arrow"src="images/png/right.png">
+        </button>
     </div>
-    </section>   
-        
-    <section class="houses-sell mt-5">
+     </div>
+    </section>  
+         
+    <section class="houses-sell-sec mt-5">
         <div class="container">
            <div class="houses-heading">
             <h2 class="axtom-title mb-5">Houses for Rent (500+)</h2>
-            <p class="axtom-main-desc">Find More Project <img class="right-arrow"src="images/png/right.png"></p>
+            <p class="axtom-main-desc disc-ml">Find More Project </p>
+           </div> 
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                                <img class="house-common-img" src="images/jpeg/home-1.jpg">
+                                <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                                <div class="icon mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                                </div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                <div class="bedroo">
+                                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-2.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 12,325 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-3.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 6</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,999 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                                <img class="house-common-img" src="images/jpeg/home-1.jpg">
+                                <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                                <div class="icon mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                                </div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                <div class="bedroo">
+                                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-2.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 12,325 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-3.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 6</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,999 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                                <img class="house-common-img" src="images/jpeg/home-1.jpg">
+                                <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                                <div class="icon mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="bedroom">
+                                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                                </div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                <div class="bedroo">
+                                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-2.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 12,325 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <div class="houses-sell-common">
+                            <img class="house-common-img" src="images/jpeg/home-3.jpg">
+                            <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                            <div class="icon mt-4">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath"src="images/png/bed.png"> 6</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="bedroom">
+                                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-6">
+                                        <div class="bedroo">
+                                            <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,999 </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <img class="right-arrow"src="images/png/right.png">
+        </button>
+    </div>
+        
+    </div>
+    </section>
+    <!--
+    <section class="houses-sell-sec mt-5">
+        <div class="container">
+           <div class="houses-heading">
+            <h2 class="axtom-title mb-5">Houses for Rent (500+)</h2>
+            <p class="axtom-main-desc">Find More Project</p>
            </div> 
         <div class="row">
             <div class="col-sm-4">
                 <div class="houses-sell-common">
-                        <img class="house-common-img" src="images/png/portfolio-img-6.png">
-                        <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine</h5>
+                        <img class="house-common-img" src="images/jpeg/home-4.jpg">
+                        <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
                         <div class="icon mt-4">
-                             <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
-                            <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
-                            <h6> <img class="bath" src="images/png/bath.png"> 10,999 </h6>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="bedroom">
+                                        <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="bedroom">
+                                        <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-6">
+                                    <div class="bedroo">
+                                        <h6> <img class="bath" src="images/png/dollar-symbol.png"> 8,590 </h6>
+                                    </div>
+                                </div>
+                            </div>
                          </div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="houses-sell-common">
-                    <img class="house-common-img" src="images/png/portfolio-img-6.png">
-                    <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea </h5>
+                    <img class="house-common-img" src="images/jpeg/home-5.jpg">
+                    <h5 class="axtom-sub-3-title mt-4"> La Veduta Di Vertine </h5>
                     <div class="icon mt-4">
-                        <h6 class=""> <img class="bath"src="images/png/bed.png"> 4 </h6>
-                       <h6 class=""> <img class="bath" src="images/png/bath.png"> 2 </h6>
-                       <h6> <img class="bath" src="images/png/bath.png"> 12,325 </h6>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="bedroom">
+                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 5 </h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="bedroom">
+                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 3 </h6>
+                                </div>
+                             </div>
+                             <div class="col-sm-6">
+                                <div class="bedroo">
+                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 10,999 </h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
              <div class="col-sm-4">
                 <div class="houses-sell-common">
-                    <img class="house-common-img" src="images/png/portfolio-img-6.png">
-                    <h5 class="axtom-sub-3-title mt-4"> Villa Palmeto House</h5>
+                    <img class="house-common-img" src="images/jpeg/home-6.jpg">
+                    <h5 class="axtom-sub-3-title mt-4"> Villa Pep Simo Sea</h5>
                     <div class="icon mt-4">
-                        <h6 class=""> <img class="bath"src="images/png/bed.png"> 6 </h6>
-                       <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
-                       <h6> <img class="bath" src="images/png/bath.png"> 15,999 </h6>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="bedroom">
+                                    <h6 class=""> <img class="bath"src="images/png/bed.png"> 7 </h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="bedroom">
+                                    <h6 class=""> <img class="bath" src="images/png/bath.png"> 4 </h6>
+                                </div>
+                             </div>
+                             <div class="col-sm-6">
+                                <div class="bedroo">
+                                    <h6> <img class="bath" src="images/png/dollar-symbol.png"> 15,250 </h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     </section>   
+-->
     <section class="ture-dream-sec mt-5">
         <div class="container">
         <div class="row">
             <div class="col-sm-6">
                     <div class="true-dream-col-first">
+                        <div class="dream-flex-1 mt-5">
+                        <div class="true-span"> 
+                             <span class="circle-1"> <img class="span-img"src="images/png/user.png"></span>  
+                        </div>
+                        <div class="true-heading ">
                             <h4 class="axtom-sub-2-title">Make your dream true</h4>
                             <p class="axtom-desc "> Aenean interdum elementum tellus et facilisis.
                                 Donec fermentum ex diam. Integer ac lobortis
                                 nulla vestibulum dignissim.
                             </p>
-                            <h4 class="axtom-sub-2-title"> Start your membership</h4>
-                            <p class="axtom-desc"> Aenean interdum elementum tellus et facilisis.
+                        </div>
+                     </div>
+                     <div class="dream-flex-1 mt-5">
+                      <div class="true-span"> 
+                            <span class="circle-1"><img class="span-img"src="images/png/computer.png"></span>  
+                       </div>
+                       <div class="true-heading">
+                           <h4 class="axtom-sub-2-title">Start your membership</h4>
+                           <p class="axtom-desc "> Aenean interdum elementum tellus et facilisis.
+                               Donec fermentum ex diam. Integer ac lobortis
+                               nulla vestibulum dignissim.
+                           </p>
+                       </div>
+                       </div>
+                       <div class="dream-flex-1 mt-5">
+                       <div class="true-span"> 
+                          <span class="circle-1"> <img class="span-img"src="images/png/home.png"></span>  
+                       </div>
+                       <div class="true-heading">
+                            <h4 class="axtom-sub-2-title">Enjoy your new home</h4>
+                            <p class="axtom-desc "> Aenean interdum elementum tellus et facilisis.
                                 Donec fermentum ex diam. Integer ac lobortis
                                 nulla vestibulum dignissim.
-                            </p>
-                            <h4 class="axtom-sub-2-title ">Enjoy your new home </h4>
-                            <p class="axtom-desc"> Aenean interdum elementum tellus et facilisis.
-                                Donec fermentum ex diam. Integer ac lobortis
-                                nulla vestibulum dignissim.
-                            </p>
+                           </p>
+                        </div>
+                       </div>
                     </div>
             </div>
+            <img class="building-bg" src="images/jpeg/building.jpg">
             <div class="col-sm-6">
                 <div class="true-dream-col-second">
-                    <img class="building-bg" src="images/jpeg/building.jpg">
+                    
                 </div>
             </div>
         </div>
       </div>
     </section>
-    <section class="mitchells">
+    <section class="mitchells-sec mb-5">
         <div class="container">
         <div class="row">
                 <div class="col-sm-6">
@@ -226,7 +781,10 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="mitchells-col-second">
-                        <h3 class="axtom-sub-title"> "We have used Mitchells from New Hampshire & are very pleased with the provided."</h3>
+                        <h3 class="axtom-sub-title"> "We have used Mitchells 
+                            from New Hampshire & are 
+                            very pleased with the
+                             provided."</h3>
                         <h6 class="mt-5">Zhenya Rynzhuk</h6>
                         <p> Web Designer</p>
                     </div>
@@ -234,7 +792,8 @@
             </div>
         </div>
     </section>
-    <section class="footer container-fluid">
+    <section class="footer-sec container-fluid">
+        <div class="container">
         <div class="row">
             <div class="col-4">
                <h2 class="axtom-footer">  Axtom </h2>
@@ -242,52 +801,73 @@
             <div class="col-2">
                 <div class="footer-common">
                     <h6>Servces</h6>
+                    <hr class="hr-common-line">
                     <ul>
-                        <li>Architecture</li>
-                        <li>Agency</li>
-                        <li>Asset Valuation</li>
-                        <li>Buliding</li>
-                        <li>Business Rates</li>
-                        <li>Expert Withness</li>
-                        <li>CPO</li>
+                        <li><a href="javascript:void(0);">Architecture</a></li>
+                        <li><a href="javascript:void(0);">Agency</a></li>
+                        <li><a href="javascript:void(0);">Asset Valuation</a></li>
+                        <li><a href="javascript:void(0);">Buliding</a></li>
+                        <li><a href="javascript:void(0);">Business Rates</a></li>
+                        <li><a href="javascript:void(0);">Expert Withness</a></li>
+                        <li><a href="javascript:void(0);">CPO</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-2">
                 <div class="footer-common">
                      <h6>Location</h6>
+                     <hr class="hr-common-line">
                      <ul>
-                         <li>Birmingham</li>
-                         <li>Bristol</li>
-                         <li>Exeter</li>
-                         <li>Leeds</li>
-                         <li>Teeside</li>
-                         <li>Manchester</li>
-                         <li>York</li>
+                         <li><a href="javascript:void(0);">Birmingham</a></li>
+                         <li><a href="javascript:void(0);">Bristol</a></li>
+                         <li><a href="javascript:void(0);">Exeter</a></li>
+                         <li><a href="javascript:void(0);">Leeds</a></li>
+                         <li><a href="javascript:void(0);">Teeside</a></li>
+                         <li><a href="javascript:void(0);">Manchester</a></li>
+                         <li><a href="javascript:void(0);">York</a></li>
                      </ul>
                 </div>
             </div>
             <div class="col-2">
                 <div class="footer-common">
                    <h6>Services</h6>
+                   <hr class="hr-common-line">
                    <ul>
-                       <li>Properties</li>
-                       <li>Auctions</li>
+                       <li><a href="javascript:void(0);">Properties</a></li>
+                       <li><a href="javascript:void(0);">Auctions</a></li>
                    </ul>
                 </div>
             </div>
             <div class="col-2">
                 <div class="footer-common">
                     <h6>Contact</h6>
+                    <hr class="hr-common-line">
                     <ul>
-                        
-                        <li>TEST</li>>
-                        <li>+44 (0)800 122 3050 </li>
-                        <li>abdullah@gmail.com</li>
+                        <li><a href="javascript:void(0);">+44 (0)800 122 3050</a> </li>
+                        <li><a href="javascript:void(0);">abdullah@gmail.com</a></li>
                     </ul>
                  </div>   
             </div>
         </div>
+        <hr class="hr-line">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="bottom-footer">
+                    <ul>
+                        <li><a href="javascript:void(0);">About</a></li>
+                        <li><a href="javascript:void(0);">Privacy & legal</a></li>
+                        <li><a href="javascript:void(0);">Partner</a></li>
+                        <li><a href="javascript:void(0);">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="footer-bottom-second-col">
+                    <p> @2019 All Right Reserved by <span class="footer-span"> Abdullah Sajol</span> </p>
+                </div>
+            </div>
+        </div>
+      </div>
     </section>
    </body>
 </html>
