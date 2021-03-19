@@ -154,7 +154,7 @@
 .right-arrow{
     width:20px;
     margin-right:60px;
-    margin-top: -532px;
+    margin-top: -528px;
 }
 .carousel-control-next, .carousel-control-prev {
     width: 0%;
@@ -307,4 +307,5 @@
 }
 .footer-span{
     color:#6B89FF;
+    margin-left: 5px;
 }
